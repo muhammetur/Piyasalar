@@ -3,7 +3,7 @@ body { min-height: 100%; display: flex; align-items: center; color: #2b3b48; fon
 .gx-5 { --bs-gutter-x: 5rem; }
 h1 { margin: 0px 0px 45px 0px; font-size: 28px; font-weight: 700; }
 h2 { margin: 0px 0px 30px 0px; font-size: 20px; font-weight: 500; }
-.magi-click{padding: 30px 0px;}
+.container-fluid{padding: 30px 0px;}
 .item { font-size: 13px; }
 .currency-title { font-size: 12px; color: #4f6477; display: block; text-align: right; margin-bottom: 10px; }
 .doviz-cevir { background-image: linear-gradient(154deg, #2b3b48 32%, #8093a5 115%); padding: 25px; color: #fff; }
