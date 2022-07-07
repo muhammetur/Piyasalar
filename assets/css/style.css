@@ -1,0 +1,62 @@
+html { height: 100%; }
+body { min-height: 100%; display: flex; align-items: center; color: #2b3b48; font-size: 16px; font-family: 'Roboto', sans-serif; -webkit-font-smoothing: antialiased;  }
+.gx-5 { --bs-gutter-x: 5rem; }
+h1 { margin: 0px 0px 45px 0px; font-size: 28px; font-weight: 700; }
+h2 { margin: 0px 0px 30px 0px; font-size: 20px; font-weight: 500; }
+.magi-click{padding: 30px 0px;}
+.item { font-size: 13px; }
+.currency-title { font-size: 12px; color: #4f6477; display: block; text-align: right; margin-bottom: 10px; }
+.doviz-cevir { background-image: linear-gradient(154deg, #2b3b48 32%, #8093a5 115%); padding: 25px; color: #fff; }
+.currency-name { font-size: 12px;}
+.curency { font-size: 16px; text-align: right; display: block; }
+.currency-rates { font-size: 16px; color: #2b3b48; font-weight: 500; display: block; margin-bottom: 10px; }
+.currency-icon{ max-width: 100%; }
+.list { padding: 0px; margin: 0px; list-style: none; }
+.list-item { display: flex; align-items: flex-start; border-top: 1px solid rgb(186 201 213 / 30%); padding-top: 30px; margin-top: 30px; line-height: 1; }
+.list-item > div:last-child{ margin-left: auto;}
+.list > .col-12:first-child > .list-item { border: none; margin-top: 0px; padding-top: 0px; }
+.list > .col-12:first-child + .col-12 .list-item { border: none; margin-top: 0px; padding-top: 0px; }
+.btn { border-radius: 0px; border-width: 2px; letter-spacing: 0.94px; font-size: 15px; font-weight: 700; padding: 15px 30px; line-height: 1; height: 48px; }
+.btn-dark { background-color: #2b3b48; border-color: #2b3b48; }
+.btn-outline-secondary { border-color: #4f6477; color: #2b3b48; }
+.btn-outline-secondary:hover { border-color: #2b3b48; color: #fff; background-color: #2b3b48; }
+.form-control, .form-select { height: 48px; border-radius: 0px; border: none; box-shadow: none; outline: none; font-size: 16px; font-weight: 500; }
+.form-control:disabled { background-color: #fff; }
+.form-control { box-shadow: none !important; }
+.form-select { border-left: 1px solid #eaeef2; max-width: 82px; box-shadow: none !important; }
+.currency-input { position: absolute; right: 15px; top: 50%; z-index: 1; color: #212529; font-weight: 500; transform: translateY(-50%); cursor: default; }
+.date-currency { font-size: 12px; display: flex; margin-top: 10px; align-items: center; justify-content: space-between; }
+.date-currency .title { color: #4f6477; }
+.date-currency #date { font-weight: 500; }
+.row-left-list{ }
+.row-left-list .item{ }
+.left-list-bottom{}
+.left-list-bottom .item{}
+.left-column{padding: 0; }
+.right-column{}
+.left-list-bottom .item .btn-outline-secondary img{ display: none; }
+@media (max-width:768px) {
+          
+      .list > .col-12:first-child + .col-12 .list-item { border-top: 1px solid rgb(186 201 213 / 30%); padding-top: 25px; margin-top: 25px; }
+      .list-item{padding-top: 25px; margin-top: 25px;}
+      h1{ margin-bottom: 30px; font-size: 22px; letter-spacing: -0.49px; }
+      .right-column{ margin-top: 40px; margin-bottom: 20px; }
+      .left-list-bottom .item:first-child{ margin-bottom: 5px; }
+      .left-list-bottom .item .btn-outline-secondary{border-color: #fff!important;background-color: #fff!important;color: #2b3b48;font-size: 16px;letter-spacing: 1px;font-weight: 500;display: flex;align-items: center;justify-content: center;}
+      .left-list-bottom .item .btn-outline-secondary img{ display: block; margin-left: 5px;}
+}
+@media (max-width:992px) {
+      h1{ font-size: 24px; }
+      h2{font-size: 20px;/* margin-bottom: 15px; */}
+      .doviz-cevir{/* padding: 20px; */}
+      .container{ max-width:100%; width: 100%;}
+      .curency{ font-size: 14px; }
+      .currency-rates{ font-size: 14px;    margin-bottom: 5px; }
+      .currency-title{ margin-bottom: 5px;font-size: 11px; }
+      .currency-name{ font-size: 11px; }
+      .gx-5{ --bs-gutter-x: 2rem; }
+}
+@media (max-width:1366px) {
+ 	.row-left-list{ }
+	.row-left-list .item{ }
+}
